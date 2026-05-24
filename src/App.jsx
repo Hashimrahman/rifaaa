@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
 const slides = [
-  "Rifuoooo 😇",
+  "Rifuoooo 😇💕",
   "First thanne oru soorryyyy..... aa reel njn onnm vicharich ayachaallaattoo 🙂",
   "athil bad aavarth ttoo",
   "Innale njn pinnem pinnem nthaa nthaa choich verpichath...",
@@ -53,7 +53,7 @@ const particles = generateParticles();
 
 const appFont = "'Trebuchet MS', 'Segoe UI', system-ui, -apple-system, sans-serif";
 
-function HugScene({ onShowImage }) {
+function HugScene() {
   return (
     <div className="hug-scene" style={hugStyles.wrap}>
       <div style={hugStyles.heading} className="hug-heading">
@@ -84,11 +84,6 @@ function HugScene({ onShowImage }) {
         Ethra doore aanenkilum 😊.
       </p>
 
-      {/* Surprise button */}
-      <button style={hugStyles.surpriseBtn} className="hug-sub" onClick={onShowImage}>
-        <span>Pinnee last Oru karym koodi 😁?</span>
-        <span style={{ fontSize: 24, marginLeft: 6 }}>👀</span>
-      </button>
     </div>
   );
 }
@@ -305,7 +300,7 @@ export default function CalmSlideshow() {
 
           {showHug && !showImage && (
             <div className="hug-in">
-              <HugScene onShowImage={handleShowImage} />
+              <HugScene />
             </div>
           )}
 
@@ -340,6 +335,13 @@ export default function CalmSlideshow() {
               </svg>
             </button>
           </div>
+        )}
+
+        {showHug && !showImage && (
+          <button style={hugStyles.surpriseBtn} className="hug-sub" onClick={handleShowImage}>
+            <span>Pinnee last Oru karym koodi 😁?</span>
+            <span style={{ fontSize: 24, marginLeft: 6 }}>👀</span>
+          </button>
         )}
 
       </div>
