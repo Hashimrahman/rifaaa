@@ -2,32 +2,32 @@ import { useState, useEffect, useRef } from "react";
 
 const slides = [
   "Rifuoooo 😇",
-  // "First thanne oru soorryyyy..... aa reel njn onnm vicharich ayachaallaattoo 🙂",
-  // "athil bad aavarth ttoo",
-  // "Innale njn pinnem pinnem nthaa choich verpichath ",
-  // "Enk ath solve aakan kayym nn oru orapum indayittalla",
-  // "Pakshe... nthelloo ante thalel ipo ind nn enk ariya",
-  // "Sathym paranja ntha parayande enk areela",
-  // "Enk oraale aaswasipikan lla vallya ithonnm lla",
-  // "aake ariynath sarrla potte ellum sheryvm nn aan",
-  // "Relax aayit irikk tto",
-  // "Over tension aavateh irikk",
-  // "Nthanelm ank paraynm nn indel epo venelm iyy vilichoo ttoo",
-  // "Manushyammar thammil eth relation um nalla pole ponenkl aadym nalla friend aavan vendyee",
-  // "Angne oru friend aayit epolum njn indvm, nthoke indayalm",
-  // "Pinnee friend aan paranj vicharich relation nn back nikonnum allaaattooo 😁",
-  // "Married aanelm allenklm oru relationship nallapole ponenkl oor randlm nalla best friend aayrkknm , alleee..?",
-  // "Angne aan paranje",
-  // "Apo nth indelm ath epo enth parynm thonnyalm njn ivde indvm, Insha Allah",
-  // "Pinne ethoru kayattathinum oru erakam indvm nn aanalloo...",
-  // "Oru rathrik oru pakal",
-  // "Oru mazhak oru veyil",
-  // "Athe pole thanne aan ellm",
-  // "Oru sangdm indenkl athinte double santhosham apparth indvm",
-  // "Nammak illath nammale adthk thanne varum",
-  // "Inipo nammk venm nn llath nallonm onn padachonod dua aakya athm kittm",
-  // "Apo sangadapedand, tension adikand, mind cool aayit irikk tto",
-  // "Insha allah ellm ready aavm"
+  "First thanne oru soorryyyy..... aa reel njn onnm vicharich ayachaallaattoo 🙂",
+  "athil bad aavarth ttoo",
+  "Innale njn pinnem pinnem nthaa nthaa choich verpichath...",
+  "Enk ath solve aakan kayym nn oru orapum indayittalla",
+  "Pakshe... nthelloo ante thalel ipo ind nn enk ariya",
+  "Sathym paranja ntha parayande enk areela",
+  "Enk oraale aaswasipikan lla vallya ithonnm lla",
+  "aake ariynath sarlla potte ellum sheryvm nn aan",
+  "Relax aayit irikk tto",
+  "Over tension aavathe irikk",
+  "Nthanelm ank paraynm nn indel epo venelm iyy vilichoo ttoo",
+  "Manushyammar thammil eth relation um nalla pole ponenkl aadym nalla friend aavan vendyee",
+  "Angne oru friend aayit epolum njn indvm, nthoke indayalm",
+  "Pinnee friend aan paranj vicharich relation nn back nikonnum allaaattooo 😁",
+  "Married aanelm allenklm oru relationship nallapole ponenkl oor randlm nalla best friend aayrkknm , alleee..?",
+  "Angne aan paranje",
+  "Apo nth indelm ath epo enth karym parynm thonnyalm njn ivde indvm, Insha Allah",
+  "Pinne ethoru kayattathinum oru erakam indvm nn aanalloo...",
+  "Oru rathrik oru pakal",
+  "Oru mazhak oru veyil",
+  "Athe pole thanne aan ellm",
+  "Oru sangdm indenkl athinte double santhosham apparth indvm",
+  "Nammak illath nammale adthk thanne varum",
+  "Inipo nammk venm nn llath nallonm onn padachonod dua aakya athm kittm",
+  "Apo sangadapedand, tension adikand, mind cool aayit irikk tto",
+  "Insha allah ellm ready aavm, 😊😇"
 ];
 
 const NUM_PARTICLES = 38;
@@ -107,8 +107,8 @@ function ImageReveal() {
         <div style={imgStyles.shimmerLine} className="shimmer-line" />
       </div>
       <p style={imgStyles.caption} className="hug-sub">
-        Eee kann nirkarth tto....
-        Anne kurich aaloikanum iyy chiriknath kananum aagrahikan kannukalum ind 😇.
+        Eee kann nirakarth tto....
+        Anne kurich aaloikanum iyy chiriknath kananum aagrahikna kannukalum ind 😇.
         Ath marakarth 🥺❤️
       </p>
     </div>
